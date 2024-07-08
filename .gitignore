@@ -1,0 +1,9 @@
+.env/
+chest_xray/
+images/
+__pycache__/
+collect_and_write_stats.py
+collect_stats.sh
+docker_stats_live.csv
+model_test.py
+profiling.py
