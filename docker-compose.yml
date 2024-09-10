@@ -1,6 +1,6 @@
 services:
   image-classifier:
-    image: rajarshi29/pneumonia-classifier:compat  # Replace with your image name and tag
+    image: ghcr.io/datakaveri/amd-pneumonia-app:v1.0  # Replace with your image name and tag
     volumes:
-      - /Users/rajarshi/Documents/Projects/IUDX/pneumonia-classification-app/pneumonia_classification_docker/chest_xray/val/input:/app/input
-      - /Users/rajarshi/Documents/Projects/IUDX/pneumonia-classification-app/pneumonia_classification_docker:/app/output
+      - /tmp/inputdata:/app/input
+      - /tmp/output:/app/output
